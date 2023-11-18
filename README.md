@@ -40,5 +40,4 @@ _More projects can be found in the repositories below._
 - **LinkedIn**: www.linkedin.com/in/rileyberrey
 - **Email**: rileyberrey@gmail.com
 
-Thank you for visiting my portfolio. I am always open to collaborating on projects and innovative ideas in the field of health informatics and digital healthcare.
-
+Thank you for visiting my portfolio! 
