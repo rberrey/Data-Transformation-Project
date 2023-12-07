@@ -18,5 +18,3 @@ The SQL file contains structured commands to create source and target schemas, a
 
 ## Usage
 This project is ideal for users who are interested in learning about SQL data manipulation, schema creation, and data transformation techniques. It can be used as a learning tool or a template for similar projects.
-
-## This README provides a concise summary of your project based on the initial content of the SQL file. You might want to add more details or sections depending on the full content of your file and the specific aspects you want to highlight in your GitHub repository.
