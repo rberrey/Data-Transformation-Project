@@ -1,43 +1,22 @@
-# Riley Berrey - Health Informatics Specialist & Data Analyst Portfolio
+# Data Transformation Project Overview
 
-Welcome to my portfolio! I am Riley Berrey, a graduate student in Health Informatics and Information Management with a foundational background in Public Health. Currently, I am enriching the digital health landscape as a Clinical Product/Research Consultant at Commure, a forward-thinking digital health startup.
+My name is Riley Berrey and I'm a graduate student in Health Informatics and Information Management with a background in Public Health. Currently, I am enriching the digital health landscape as a Clinical Product/Research Consultant at Commure, a forward-thinking digital health startup.
 
-## About Me
+## Project Description
+This project involves creating mock schemas and simulating data transformation processes typically found in data warehousing or ETL (Extract, Transform, Load) operations. The project showcases the creation and manipulation of a source schema and a target schema, focusing on transforming data from the source tables to the target tables.
 
-- 🎓 **Education**: Bachelor's in Public Health; pursuing a Master's in Health Informatics and Information Management.
-- 👩‍💻 **Professional Role**: Clinical Product/Research Consultant at Commure.
-- 🌱 **Interests**: Leveraging data analytics to enhance healthcare delivery, improve patient outcomes, and streamline health systems.
+## Key Features
+Source Schema Creation: The source schema represents the original data set, consisting of two main tables: patients and encounters.
+Target Schema Creation: A target schema is created to store transformed data, demonstrating a typical data warehousing scenario.
+Data Transformation: The project highlights various data transformation techniques applied to transfer data from the source schema to the target schema.
 
-## Skills
+## Disclaimer
+This data set does not contain real patient information. All patient and encounter data are entirely fictional and generated for demonstration purposes.
 
-- **Data Analysis Tools**: Proficient in SQL, Python, RapidMiner, and Tableau.
-- **Health Informatics**: Experienced in healthcare data management, and regulatory compliance (HIPAA).
-- **Research & Development**: Skilled in conducting thorough research and translating findings into actionable strategies for product development in digital health.
+## File Structure
+The SQL file contains structured commands to create source and target schemas, along with mock data generation for the patients and encounters tables. It serves as a comprehensive guide to understanding basic to intermediate SQL operations in a data transformation context.
 
-## Projects
+## Usage
+This project is ideal for users who are interested in learning about SQL data manipulation, schema creation, and data transformation techniques. It can be used as a learning tool or a template for similar projects.
 
-Here are some highlights of my work:
-
-### [Project Name]
-- **Overview**: [Brief description of the project].
-- **Technologies Used**: [List technologies and tools used].
-- **Outcome**: [What was achieved through this project].
-
-_More projects can be found in the repositories below._
-
-## Professional Experience
-
-- **Commure**: Contributing to the development and research of digital health products, focusing on [specific focus areas].
-- [Other relevant experiences if applicable]
-
-## Education
-
-- **Master’s in Health Informatics and Information Management** - East Carolina University, 2025.
-- **Bachelor of Public Health** - University of South Caroina, 2022.
-
-## Connect With Me
-
-- **LinkedIn**: www.linkedin.com/in/rileyberrey
-- **Email**: rileyberrey@gmail.com
-
-Thank you for visiting my portfolio! 
+## This README provides a concise summary of your project based on the initial content of the SQL file. You might want to add more details or sections depending on the full content of your file and the specific aspects you want to highlight in your GitHub repository.
