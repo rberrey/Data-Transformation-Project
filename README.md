@@ -1,6 +1,6 @@
 # Data Transformation Project Overview
 
-Hello! My name is Riley Berrey and I'm a graduate student in Health Informatics and Information Management with a background in Public Health. Currently, I am enriching the digital health landscape as a Clinical Product/Research Consultant at Commure, a forward-thinking digital health startup.
+Hello! My name is Riley Berrey and I'm a graduate student in Health Informatics and Information Management with a background in Public Health. Currently, I am working in the digital health landscape as a Clinical Product Consultant at Commure, a forward-thinking digital health startup focused on creating a unified OS for healthcare!
 
 ## Project Description
 This project involves creating mock schemas and simulating data transformation processes typically found in data warehousing or ETL (Extract, Transform, Load) operations. The project showcases the creation and manipulation of a source schema and a target schema, focusing on transforming data from the source tables to the target tables.
