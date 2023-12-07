@@ -137,11 +137,11 @@ INSERT INTO source.patients (name, gender, race, birthday, street, city, state, 
 --Creating source.encounters table
 CREATE TABLE source.encounters(
 	encounter_id		SERIAL,
-	patient_id			INTEGER,
-	admit_date			DATE,
+	patient_id		INTEGER,
+	admit_date		DATE,
 	department_name		TEXT,
-	age					INTEGER,	-- in years
-	weight				INTEGER,	-- in pounds
+	age			INTEGER,	-- in years
+	weight			INTEGER,	-- in pounds
 	CONSTRAINT encounters_pk PRIMARY KEY (encounter_id),
 	CONSTRAINT encounters_patients_fk FOREIGN KEY (patient_id) REFERENCES source.patients (patient_id),
 	CONSTRAINT encounter_age_ck CHECK(age BETWEEN 0 AND 120)
@@ -289,11 +289,11 @@ CREATE TABLE target.departments (
 --Creating target.encounters table
 CREATE TABLE target.encounters(
 	encounter_id		SERIAL,
-	patient_id			INTEGER,
-	admit_date			DATE,
+	patient_id		INTEGER,
+	admit_date		DATE,
 	department_id		INTEGER,
-	age					INTEGER,
-	weight				INTEGER,	-- in kg (0.453592/pound)
+	age			INTEGER,
+	weight			INTEGER,	-- in kg (0.453592/pound)
 	CONSTRAINT encounters_pk PRIMARY KEY (encounter_id),
 	CONSTRAINT encounters_patients_fk FOREIGN KEY (patient_id) REFERENCES target.patients (patient_id),
 	CONSTRAINT encounters_departments_fk FOREIGN KEY (department_id) REFERENCES target.departments (department_id),
