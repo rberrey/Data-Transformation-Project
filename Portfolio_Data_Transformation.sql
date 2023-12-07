@@ -27,7 +27,7 @@ CREATE TABLE source.patients (
 	street			TEXT,
 	city			TEXT,
 	state			TEXT,
-	zip				INTEGER,
+	zip			INTEGER,
 	CONSTRAINT patients_pk PRIMARY KEY (patient_id)
 );
 INSERT INTO source.patients (name, gender, race, birthday, street, city, state, zip) VALUES ('John Doe', 'male', 'W', '1980-01-01', '65403 First Avenue', 'Greenville', 'North Carolina', 27833);	
